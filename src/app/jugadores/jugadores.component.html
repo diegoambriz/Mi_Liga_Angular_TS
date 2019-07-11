@@ -1,0 +1,15 @@
+<mat-grid-list cols="4" rowHeight="400" style="padding:10px" *ngIf="jugadores.length > 0 else noData">
+  <mat-grid-tile *ngFor="let j of jugadores; let i = index">
+    <app-jugador [ngClass]="{ 'jugadorInactivo': !j.estado, 'jugadorActivo': j.estado }" [jugador]="j"
+      [equipo]="nombre"></app-jugador>
+  </mat-grid-tile>
+</mat-grid-list>
+
+<ng-template #noData>
+  <div class="mat-elevation-z8 noData">
+
+    <mat-spinner *ngIf="isLoading" class="spinner"></mat-spinner>
+    <h2 *ngIf="isLoading">Cargando datos</h2>
+
+    <h2 *ngIf="!isLoading">No hay registros disponibles</h2>
+  </div>

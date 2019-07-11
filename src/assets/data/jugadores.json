@@ -1,0 +1,65 @@
+[{
+    "nombre": "Diego",
+    "edad": "26",
+    "apodo": "Cadete",
+    "foto": "imagen.jpg",
+    "posicion": "Defensa",
+    "estado": true
+  },
+  {
+    "nombre": "Cristiano Ronaldo",
+    "edad": "34",
+    "apodo": "El Bicho",
+    "foto": "imagen.jpg",
+    "posicion": "Delantero",
+    "estado": true
+  },
+  {
+    "nombre": "Lionel Messi",
+    "edad": "32",
+    "apodo": "La Pulga",
+    "foto": "imagen.jpg",
+    "posicion": "Delantero",
+    "estado": true
+  },
+  {
+    "nombre": "Hugo Sanchez",
+    "edad": "25",
+    "apodo": "El Macho",
+    "foto": "imagen.jpg",
+    "posicion": "Delantero",
+    "estado": true
+  },
+  {
+    "nombre": "Luis",
+    "edad": "22",
+    "apodo": "duck",
+    "foto": "imagen.jpg",
+    "posicion": "defensa",
+    "estado": true
+  },
+  {
+    "nombre": "Ernesto",
+    "edad": "28",
+    "apodo": "stone",
+    "foto": "imagen.jpg",
+    "posicion": "defensa",
+    "estado": true
+  },
+  {
+    "nombre": "Juan",
+    "edad": "20",
+    "apodo": "gacela",
+    "foto": "imagen.jpg",
+    "posicion": "lateral",
+    "estado": true
+  },
+  {
+    "nombre": "Jose",
+    "edad": "40",
+    "apodo": "compa",
+    "foto": "imagen.jpg",
+    "posicion": "lateral",
+    "estado": true
+  }
+]
